@@ -7,12 +7,16 @@ This is a clone of [suckless.org](https://st.suckless.org/) terminal client **st
 
  - [xresources](https://st.suckless.org/patches/xresources/)
  - [vertcenter](https://st.suckless.org/patches/vertcenter/)
+ - [scrollback](https://st.suckless.org/patches/scrollback/)
 
-## Installation
+## How it was done
 
 	cd src
 	patch < ../patches/st-xresources-20190105-3be4cf1.diff
 	patch < ../patches/st-vertcenter-20180320-6ac8c8a.diff
-	make clean install
+	patch < ../patches/st-scrollback-20190331-21367a0.diff
+	patch < ../patches/st-scrollback-mouse-0.8.2.diff
 
-More details read `README` in `src` folder
+## Installation
+
+Read `README` in `src` folder
