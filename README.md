@@ -17,6 +17,7 @@ This is a clone of [suckless.org](https://st.suckless.org/) terminal client **st
 	patch < ../patches/st-scrollback-20190331-21367a0.diff
 	patch < ../patches/st-scrollback-mouse-0.8.2.diff
 	patch < ../patches/st-keyboard_select-0.8.2.diff
+  patch < ../patches/st-invert-0.8.2.diff
 
 ## Installation
 
